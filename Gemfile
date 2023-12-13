@@ -66,5 +66,5 @@ group :test do
   gem 'selenium-webdriver'
 end
 
-gem 'rubocop'
 gem 'rack-cors'
+gem 'rubocop'
