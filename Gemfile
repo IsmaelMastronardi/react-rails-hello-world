@@ -67,3 +67,4 @@ group :test do
 end
 
 gem 'rubocop'
+gem 'rack-cors'
