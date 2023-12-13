@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Greetings = () => {
-  return (
-    <div>Greetings</div>
-  )
-}
+console.log('3')
+
+const Greetings = () => {
+  return <div>Greetings</div>;
+};
+
+export default Greetings;

@@ -1,9 +1,13 @@
 import React from 'react'
-import { Greetings } from './Greetings'
 import { Route, Routes } from 'react-router-dom'
+import Greetings from './Greetings'
+
+console.log('1')
 
 export const App = () => {
-  <Routes>
-    <Route path="/" element={<Greetings />} />
-  </Routes>
-}
+  return (
+    <Routes>
+      <Route path="/" element={<Greetings />} />
+    </Routes>
+  );
+};
